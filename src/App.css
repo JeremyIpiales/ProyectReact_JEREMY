@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #5b84d8; /* Color de fondo */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px; 
+}
+
+/* Estilo de la sección de datos personales */
+.App-header div {
+  margin: 20px 0;
+}
+
+.App-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilo para las listas (ordenadas y no ordenadas) */
+ol, ul {
+  text-align: left;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+/* Galería de deportes */
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.gallery-item p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.App-header p {
+  margin: 5px 0;
+}
